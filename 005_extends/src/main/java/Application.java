@@ -7,6 +7,12 @@ public class Application {
      * 心满意足之后就睡觉了。
      */
     public static void main(String[] args) {
+        Eagles eagles = new Eagles(4, 5, 100, new String[] {"Rabbits"});
 
+        System.out.println(eagles);
+        eagles.fly();
+        eagles.hunt("Rabbits");
+        eagles.eat();
+        eagles.sleep();
     }
 }
