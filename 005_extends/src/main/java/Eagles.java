@@ -11,8 +11,8 @@ public class Eagles extends Birds{
         this.preyList = preyList;
     }
 
-    public void hunt(String prey) {
-        System.out.println("I'm hunting: " + prey);
+    public void hunt(String preyName) {
+        System.out.println("I'm hunting: " + preyName);
     }
 
     @Override
